@@ -1,3 +1,6 @@
 #gitignore
 *.tfstate
 *.tfstate.backup
+
+# Sensitive Files
+/variables.tf
