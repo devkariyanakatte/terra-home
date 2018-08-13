@@ -6,7 +6,7 @@ provider "aws" {
 
 resource "aws_instance" "sandbox" {
         ami                             = "ami-64f1211e"
-        availability_zone               = "us-east-1b"
+        availability_zone               = "us-east-1d"
         root_block_device {
                 volume_type             = "gp2"
                 volume_size             = "80"
