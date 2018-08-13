@@ -13,6 +13,8 @@ resource "aws_instance" "sandbox" {
                 
         }
         instance_type                   = "m4.large"
+		subnet_id 						= "subnet-e1d6f1a8"
+		security_groups 				= ["sg-096fad14738f6a031"]
         key_name                        = "jenkins-git"
         count                           = 1
 
